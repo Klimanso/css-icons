@@ -1,0 +1,44 @@
+/*
+    For placement of elements can be used 'float' option - this option is best if we resize
+    but You don't like this, so I use 'absolute' :)
+*/
+
+.left-icons{
+    display: flex;
+    position: absolute;
+    left: 0;
+}
+
+.right-icons{
+    display: flex;
+    position: absolute;
+    right: 0;
+}
+
+.wrapper {
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    text-align: center;
+    display: inline-block;
+}
+
+.wrapper > span{
+    font-size: 1.2em;
+    line-height: 150px;
+}
+
+.table-container {
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    display: table;
+    margin: -20px 0 0;
+}
+
+.text-container {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 1.2em;
+}

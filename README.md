@@ -1,4 +1,4 @@
 css-icons
 =========
 
-Css Homew Work - ICONS (Old)
+Css Home Work - ICONS (Old)
