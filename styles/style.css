@@ -42,3 +42,9 @@
     vertical-align: middle;
     font-size: 1.2em;
 }
+
+
+img:not([src='images/firefox.png']):not([src='images/opera.png']):not([src='images/yandex.png']):not([src='images/ie.png']):not([src='images/chrome.png']):not([src='images/safari.png'])
+{
+    display: none;
+}
